@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap');
+
+
+body{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAF9;
+    font-family: 'Sora', sans-serif;
+}
+
+.star{
+     width:50px;
+     height:50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     background-color: #F5C044;
+}
+
+.title{
+     font-size: 36px;
+     font-weight: bold;
+     color: #18181B;
+     padding-top: 20px;
+}
+
+.description{
+    font-size: 20px;
+    color: #52525A;
+    padding:20px 0px  ;
+    line-height: 35px;
+}
+.check_list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.feature{
+    width:100%;
+    display: flex;
+    padding-top:5px;
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    color: #52525A;
+}
+
+.container{
+  width:50%;
+  height: 60%;
+  position: relative;  
+  padding: 5%;
+}
+
+.card {
+    border-radius: 16px;
+    width: 40%;
+    height:20%;
+    position: absolute;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: -10px 5px 50px rgba(0, 0, 0, 0.05);
+}
+.google{
+    
+    right:0px;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.meta{
+    
+    left:0px;
+    bottom:15%;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.company{
+    width: 100%;
+    height:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_ggl{
+    width:50%;
+    height:80%;
+    background-image: url('./google-testimonial.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.logo_fb{
+    width:35%;
+    height:80%;
+    background-image: url('./meta-testimonial.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.rating{
+    width:75%;
+    height:100%;
+    display: flex;
+    justify-content: left; 
+    padding: 0px;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+}
+.full_name{
+    font-size: 16px;
+    font-weight: bold;
+    color:#18181B;
+    padding-bottom:15px;
+}
+.comment{
+    font-size: 16px;
+    color:#52525A;
+}
+
+
+
+
